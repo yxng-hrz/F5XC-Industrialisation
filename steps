@@ -1,0 +1,9 @@
+  $ brew tap hashicorp/tap
+  $ brew install hashicorp/tap/terraform
+
+  # to update
+  $ brew upgrade hashicorp/tap/terraform
+
+    export VOLT_API_URL='https://<your-tenant-name>.console.ves.volterra.io/api'
+    export VOLT_API_P12_FILE='/home/ubuntu/myp12file.p12'
+    export VES_P12_PASSWORD='password'
